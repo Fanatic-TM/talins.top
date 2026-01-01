@@ -1,0 +1,651 @@
+.talins-homepage-main {
+  	width: 100%;
+  	height: 2183px;
+  	position: relative;
+  	overflow: hidden;
+  	background-size: cover;
+  	background-repeat: no-repeat;
+  	background-position: top;
+  	text-align: center;
+  	font-size: 12px;
+  	color: #fff;
+  	font-family: 'Segoe UI';
+}
+.vectortradedatabut-icon {
+  	position: absolute;
+  	top: calc(50% - 1038.5px);
+  	left: calc(50% - 190px);
+  	width: 138px;
+  	height: 41px;
+  	cursor: pointer;
+    /* Стили для внешнего вида кнопки */
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: bold;
+            
+            /* Анимация */
+            transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            transform: scale(1);
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0);
+            
+            /* Для выравнивания текста */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Эффект при наведении - увеличение */
+        .vectortradedatabut-icon:hover {
+            transform: scale(1.08);
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0);
+            background: linear-gradient(135deg, #764ba200 0%, #667eea00 100%);
+        }
+
+        /* Эффект при нажатии */
+        .vectortradedatabut-icon:active {
+            transform: scale(1.04);
+            transition: all 0.1s ease;
+}
+.vectormore-icon {
+  	position: absolute;
+  	top: calc(50% - 1038.5px);
+  	left: calc(50% - 40px);
+  	width: 79px;
+  	height: 41px;
+  	cursor: pointer;
+    /* Стили для внешнего вида кнопки */
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: bold;
+            
+            /* Анимация */
+            transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            transform: scale(1);
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0);
+            
+            /* Для выравнивания текста */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Эффект при наведении - увеличение */
+        .vectormore-icon:hover {
+            transform: scale(1.08);
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0);
+            background: linear-gradient(135deg, #764ba200 0%, #667eea00 100%);
+        }
+
+        /* Эффект при нажатии */
+        .vectormore-icon:active {
+            transform: scale(1.04);
+            transition: all 0.1s ease;
+}
+.vectortradingservbut-icon {
+  	position: absolute;
+  	top: calc(50% - 1038.5px);
+  	left: calc(50% + 51px);
+  	width: 138px;
+  	height: 41px;
+  	cursor: pointer;
+    /* Стили для внешнего вида кнопки */
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: bold;
+            
+            /* Анимация */
+            transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            transform: scale(1);
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0);
+            
+            /* Для выравнивания текста */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Эффект при наведении - увеличение */
+        .vectortradingservbut-icon:hover {
+            transform: scale(1.08);
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0);
+            background: linear-gradient(135deg, #764ba200 0%, #667eea00 100%);
+        }
+
+        /* Эффект при нажатии */
+        .vectortradingservbut-icon:active {
+            transform: scale(1.04);
+            transition: all 0.1s ease;
+}
+.vectorlogo-icon {
+  	position: absolute;
+  	top: calc(50% - 1050.5px);
+  	left: calc(50% - 900px);
+  	width: 45px;
+  	height: 71px;
+  	cursor: pointer;
+}
+.discordlogo-parent {
+  	position: absolute;
+  	top: calc(50% + 917.5px);
+  	left: calc(50% - 118px);
+  	width: 235px;
+  	height: 45px;
+}
+.discordlogo-icon {
+  	position: absolute;
+  	top: calc(50% - 22.5px);
+  	left: calc(50% - 117.5px);
+  	border-radius: 15px;
+  	width: 45px;
+  	height: 45px;
+  	object-fit: cover;
+  	cursor: pointer;
+}
+.rbxlogo-icon {
+  	position: absolute;
+  	top: calc(50% - 22.5px);
+  	left: calc(50% - 54.5px);
+  	border-radius: 15px;
+  	width: 45px;
+  	height: 45px;
+  	object-fit: cover;
+  	cursor: pointer;
+}
+.youtubelogo-icon {
+  	position: absolute;
+  	top: calc(50% - 22.5px);
+  	left: calc(50% + 9.5px);
+  	border-radius: 15px;
+  	width: 45px;
+  	height: 45px;
+  	object-fit: cover;
+  	cursor: pointer;
+}
+.tglogo-icon {
+  	position: absolute;
+  	top: calc(50% - 22.5px);
+  	left: calc(50% + 72.5px);
+  	border-radius: 15px;
+  	width: 45px;
+  	height: 45px;
+  	object-fit: cover;
+  	cursor: pointer;
+}
+.talinslogoname-icon {
+  	position: absolute;
+  	top: calc(50% + 831.5px);
+  	left: calc(50% - 105px);
+  	width: 211px;
+  	height: 60.7px;
+  	cursor: pointer;
+}
+.talins-homepage-main-talinslogoname-icon {
+  	position: absolute;
+  	top: calc(50% - 858.5px);
+  	left: calc(50% - 105px);
+  	width: 211px;
+  	height: 60.7px;
+  	cursor: pointer;
+}
+.talins-copyright-2025-container {
+  	position: absolute;
+  	top: calc(50% + 1024.5px);
+  	left: calc(50% + 777px);
+  	color: #999;
+  	display: inline-block;
+  	width: 136px;
+  	height: 37px;
+}
+.all-rights-reserved {
+  	margin: 0;
+}
+.talins-homepage-main-vectorlogo-icon {
+  	position: absolute;
+  	top: calc(50% + 988.5px);
+  	left: calc(50% - 898px);
+  	width: 45px;
+  	height: 71px;
+  	cursor: pointer;
+}
+.contact-us {
+  	position: absolute;
+  	top: calc(50% + 1017.5px);
+  	left: calc(50% + 390px);
+  	display: inline-block;
+  	width: 141px;
+  	height: 22px;
+  	opacity: 0.6;
+  	cursor: pointer;
+}
+.privacy-policy {
+  	position: absolute;
+  	top: calc(50% + 1017.5px);
+  	left: calc(50% + 605px);
+  	display: inline-block;
+  	width: 74px;
+  	height: 22px;
+  	opacity: 0.6;
+  	cursor: pointer;
+}
+.this-site-does-not-show-the-of-parent {
+  	position: absolute;
+  	top: calc(50% + 1018.5px);
+  	left: calc(50% - 336px);
+  	width: 671px;
+  	height: 44px;
+}
+.this-site-does-container {
+  	position: absolute;
+  	top: calc(50% - 22px);
+  	left: calc(50% - 335.5px);
+  	display: inline-block;
+  	width: 671px;
+  	height: 44px;
+}
+.terms-of-service {
+  	color: rgba(0, 122, 255, 0);
+}
+.talins-homepage-main-terms-of-service {
+  	position: absolute;
+  	top: calc(50% - 6px);
+  	left: calc(50% + 235.5px);
+  	color: rgba(0, 122, 255, 0.54);
+  	display: inline-block;
+  	width: 92px;
+  	height: 19px;
+  	cursor: pointer;
+}
+.talins-homepage-main-child {
+  	position: absolute;
+  	top: calc(50% + 1043.5px);
+  	left: calc(50% + 342px);
+  	background-color: #d9d9d9;
+  	width: 385px;
+  	height: 1px;
+}
+.talins-homepage-main-item {
+  	position: absolute;
+  	top: calc(50% + 1043.5px);
+  	left: calc(50% - 728px);
+  	background-color: #d9d9d9;
+  	width: 385px;
+  	height: 1px;
+}
+.make-trading-easier-container {
+  	position: absolute;
+  	top: calc(50% - 789.5px);
+  	left: calc(50% - 176px);
+  	font-size: 36px;
+  	line-height: 55px;
+  	display: inline-block;
+  	width: 351px;
+  	height: 87px;
+}
+.image-roblox-games-parent {
+  	position: absolute;
+  	top: calc(50% - 607.5px);
+  	left: calc(50% + 213px);
+  	width: 212px;
+  	height: 473px;
+  	cursor: pointer;
+  	font-size: 5px;
+    /* Стили для внешнего вида кнопки */
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: bold;
+            
+            /* Анимация */
+            transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            transform: scale(1);
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0);
+            
+            /* Для выравнивания текста */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Эффект при наведении - увеличение */
+        .image-roblox-games-parent:hover {
+            transform: scale(1.04);
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0);
+            background: linear-gradient(135deg, #764ba200 0%, #667eea00 100%);
+        }
+
+        /* Эффект при нажатии */
+        .image-roblox-games-parent:active {
+            transform: scale(1.02);
+            transition: all 0.1s ease;
+}
+.image-roblox-games {
+  	position: absolute;
+  	top: calc(50% - 236.5px);
+  	left: calc(50% - 106px);
+  	border-radius: 40px;
+  	width: 212px;
+  	height: 473px;
+  	object-fit: cover;
+  	cursor: pointer;
+}
+.this-photo-does {
+  	position: absolute;
+  	top: calc(50% + 223.5px);
+  	left: calc(50% - 98.5px);
+  	line-height: 10px;
+  	display: inline-block;
+  	width: 196px;
+  	height: 10px;
+}
+.trade-database-for {
+  	position: absolute;
+  	top: calc(50% - 51.5px);
+  	left: calc(50% - 81.5px);
+  	font-size: 24px;
+  	font-family: 'Inclusive Sans';
+  	display: inline-block;
+  	width: 164px;
+  	height: 101px;
+}
+.image-discord-parent {
+  	position: absolute;
+  	top: calc(50% - 607.5px);
+  	left: calc(50% - 425px);
+  	width: 615px;
+  	height: 329px;
+  	cursor: pointer;
+  	font-size: 32px;
+  	font-family: 'Inclusive Sans';
+}
+.image-discord-icon {
+  	position: absolute;
+  	top: calc(50% - 164.5px);
+  	left: calc(50% - 307.5px);
+  	border-radius: 40px;
+  	width: 615px;
+  	height: 329px;
+  	object-fit: cover;
+    /* Стили для внешнего вида кнопки */
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: bold;
+            
+            /* Анимация */
+            transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            transform: scale(1);
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0);
+            
+            /* Для выравнивания текста */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Эффект при наведении - увеличение */
+        .image-discord-icon:hover {
+            transform: scale(1.04);
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0);
+            background: linear-gradient(135deg, #764ba200 0%, #667eea00 100%);
+        }
+
+        /* Эффект при нажатии */
+        .image-discord-icon:active {
+            transform: scale(1.02);
+            transition: all 0.1s ease;
+}
+.convenient-wfl-calculator-container {
+  	position: absolute;
+  	top: calc(50% - 49.5px);
+  	left: calc(50% - 213.5px);
+  	display: inline-block;
+  	width: 427px;
+}
+.image-discord-group {
+  	position: absolute;
+  	top: calc(50% - 254.38px);
+  	left: calc(50% - 425px);
+  	width: 615.4px;
+  	height: 115.4px;
+  	cursor: pointer;
+  	font-size: 24px;
+  	font-family: 'Inclusive Sans';
+    /* Стили для внешнего вида кнопки */
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: bold;
+            
+            /* Анимация */
+            transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            transform: scale(1);
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0);
+            
+            /* Для выравнивания текста */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Эффект при наведении - увеличение */
+        .image-discord-group:hover {
+            transform: scale(1.04);
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0);
+            background: linear-gradient(135deg, #764ba200 0%, #667eea00 100%);
+        }
+
+        /* Эффект при нажатии */
+        .image-discord-group:active {
+            transform: scale(1.02);
+            transition: all 0.1s ease;
+}
+.talins-homepage-main-image-discord-icon {
+  	position: absolute;
+  	top: calc(50% - 57.7px);
+  	left: calc(50% - 307.7px);
+  	border-radius: 40px;
+  	width: 615.4px;
+  	height: 115.4px;
+  	object-fit: cover;
+}
+.discord-server-talins {
+  	position: absolute;
+  	top: calc(50% - 30.82px);
+  	left: calc(50% - 257.7px);
+  	display: inline-block;
+  	width: 217px;
+  	height: 61px;
+}
+.group-parent {
+  	position: absolute;
+  	top: calc(50% - 43.5px);
+  	left: calc(50% - 443px);
+  	width: 886px;
+  	height: 354px;
+  	text-align: left;
+  	font-size: 20px;
+  	font-family: 'Inria Sans';
+}
+.rectangle-parent {
+  	position: absolute;
+  	top: calc(50% - 177px);
+  	left: calc(50% - 443px);
+  	width: 886px;
+  	height: 354px;
+  	font-size: 32px;
+}
+.group-child {
+  	position: absolute;
+  	top: calc(50% - 177px);
+  	left: calc(50% - 443px);
+  	border-radius: 40px;
+  	background-color: #363636;
+  	width: 886px;
+  	height: 354px;
+}
+.last-news {
+  	position: absolute;
+  	top: calc(50% - 155px);
+  	left: calc(50% - 408px);
+  	display: inline-block;
+  	width: 211.7px;
+  	height: 35.8px;
+}
+.check-more {
+  	position: absolute;
+  	top: calc(50% + 136px);
+  	left: calc(50% + 245px);
+  	font-size: 20px;
+  	text-decoration: underline;
+  	display: inline-block;
+  	text-align: right;
+  	width: 171px;
+  	height: 27px;
+  	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+.rectangle-group {
+  	position: absolute;
+  	top: calc(50% - 96px);
+  	left: calc(50% - 372px);
+  	width: 358.2px;
+  	height: 222.2px;
+  	cursor: pointer;
+    /* Стили для внешнего вида кнопки */
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: bold;
+            
+            /* Анимация */
+            transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            transform: scale(1);
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0);
+            
+            /* Для выравнивания текста */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Эффект при наведении - увеличение */
+        .rectangle-group:hover {
+            transform: scale(1.04);
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0);
+            background: linear-gradient(135deg, #764ba200 0%, #667eea00 100%);
+        }
+
+        /* Эффект при нажатии */
+        .rectangle-group:active {
+            transform: scale(1.02);
+            transition: all 0.1s ease;
+}
+.group-item {
+  	position: absolute;
+  	top: calc(50% - 111.1px);
+  	left: calc(50% - 179.1px);
+  	border-radius: 40px;
+  	width: 358.2px;
+  	height: 222.2px;
+  	object-fit: cover;
+}
+.roblox-breaking {
+  	position: absolute;
+  	top: calc(50% + 70.16px);
+  	left: calc(50% - 161.67px);
+  	display: inline-block;
+  	width: 289.3px;
+  	height: 26.1px;
+}
+.date {
+  	position: absolute;
+  	top: calc(50% - 105px);
+  	left: calc(50% + 106.73px);
+  	display: inline-block;
+  	width: 43.6px;
+  	height: 26.1px;
+}
+.rectangle-container {
+  	position: absolute;
+  	top: calc(50% - 96px);
+  	left: calc(50% + 14px);
+  	width: 358.2px;
+  	height: 222.2px;
+  	cursor: pointer;
+    /* Стили для внешнего вида кнопки */
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: bold;
+            
+            /* Анимация */
+            transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            transform: scale(1);
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0);
+            
+            /* Для выравнивания текста */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Эффект при наведении - увеличение */
+        .rectangle-container:hover {
+            transform: scale(1.04);
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0);
+            background: linear-gradient(135deg, #764ba200 0%, #667eea00 100%);
+        }
+
+        /* Эффект при нажатии */
+        .rectangle-container:active {
+            transform: scale(1.02);
+            transition: all 0.1s ease;
+}
+.talins-officially-release {
+  	position: absolute;
+  	top: calc(50% + 70.16px);
+  	left: calc(50% - 156.44px);
+  	display: inline-block;
+  	width: 216.1px;
+  	height: 26.1px;
+}
+.talins-homepage-main-date {
+  	position: absolute;
+  	top: calc(50% - 105px);
+  	left: calc(50% + 112.83px);
+  	display: inline-block;
+  	width: 43.6px;
+  	height: 26.1px;
+}
+.want-to-see-container {
+  	position: absolute;
+  	top: calc(50% + 432.5px);
+  	left: calc(50% - 270px);
+  	font-size: 40px;
+  	line-height: 55px;
+  	display: inline-block;
+  	width: 539px;
+  	height: 134px;
+}
+.we-are-always-container {
+  	position: absolute;
+  	top: calc(50% + 557.5px);
+  	left: calc(50% - 231px);
+  	font-size: 36px;
+  	font-weight: 300;
+  	font-family: 'Inria Sans';
+  	display: inline-block;
+  	width: 461px;
+}
+
